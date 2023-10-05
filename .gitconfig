@@ -1,0 +1,12 @@
+[alias]
+  l = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yell>
+  s = !git status -s
+  p = !git push
+  ch = !git checkout
+  co = !git commit -m
+  coa = !git add --all && git commit -m
+  npu = !git push -u
+  nbr = !git checkout -b
+  mco = !git commit --amend --no-edit
+  mcoa = !git add --all && git commit --amend --no-edit
+  open-edit = !git config --global --edit
