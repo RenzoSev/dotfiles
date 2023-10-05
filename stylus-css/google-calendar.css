@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           calendar.google.com - 6/13/2023, 11:21:21 AM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+:root {
+  --mocha-crust: #11111b;
+  --mocha-lavender: #b4befe;
+  --mocha-mauve: #cba6f7;
+  --mocha-blue: #89b4fa;
+  --mocha-surface0: #313244;
+}
+@-moz-document url-prefix("https://calendar.google.com/calendar")
+{
+  /* UPPER ICONS */
+  /* UPPER DATE ICON */
+  .KSxb4d.F262Ye,
+  body.geSgge .KSxb4d.F262Ye {
+    background-color: var(--mocha-lavender);
+    color: var(--mocha-crust);
+  }
+
+  /* UPPER HOME ICON */
+  .qAeuG.F262Ye,
+  [data-darkreader-inline-color] {
+    color: var(--mocha-mauve) !important;
+  }
+
+  /* CONTAINER */
+  /* CONTAINER OF EACH EVENT */
+  .EfQccc {
+    background-color: var(--mocha-blue) !important;
+    border-color: var(--mocha-lavender) !important;
+  }
+
+  /* TEXT CONTAINER OF EACH EVENT */
+  .Jmftzc.RIOtYe.cpCWFd .FAxxKc,
+  .Jmftzc.RIOtYe.cpCWFd.TuM9nf .A6wOnd,
+  .Jmftzc.gVNoLb .JClzi {
+    color: var(--mocha-crust);
+  }
+
+  /* HOURS TEXT CONTAINER OF EACH EVENT */
+  .Jmftzc.EiZ8Dd {
+    color: var(--mocha-surface0);
+  }
+
+  /* CALENDAR. LEFT SIDE */
+  /* CURRENTLY DAY ON CALENDAR. LEFT SIDE */
+  .TUH0Sd .r4nke,
+  .TUH0Sd.i8dSE .r4nke,
+  .TUH0Sd.i8dSE.uGtG7d .r4nke {
+    background-color: var(--mocha-blue);
+    color: var(--mocha-crust);
+  }
+
+  /* SELECTED DAY ON CALENDAR. LEFT SIDE */
+  .i8dSE .r4nke {
+    color: var(--mocha-blue);
+  }
+
+  /* MODAL TO CREATE EVENT */
+}

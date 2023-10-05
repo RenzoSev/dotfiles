@@ -1,0 +1,165 @@
+/* BASE */
+
+a,
+.MasterActionLink,
+.menu-item > a,
+.bodyContent a:link,
+.bodyContent a:visited,
+.footerContent div a:link,
+.footerContent div a:visited {
+  color: #eba0ac !important;
+}
+
+a:hover {
+  color: #f38ba8;
+}
+
+.DataTable tbody tr:hover td,
+.TableSmall tbody tr:hover td,
+.DataTable tbody tr:active td.Clickable,
+.TableSmall tbody tr:active td.Clickable,
+.DataTable tr:nth-child(2n):hover td.Highlight {
+  background-color: #11111b;
+}
+
+/* MENU */
+
+.menu-item > a:hover,
+.Actions li a:hover,
+.Actions li span:hover {
+  border-bottom-color: #f38ba8;
+}
+
+#Navigation > li > a::after {
+  background-image: initial;
+  background-color: #eba0ac;
+}
+
+#nav-Tickets-Queueview > a:hover,
+#nav-Tickets-Serviceview > a:hover,
+#nav-Tickets-Statusview > a:hover,
+#nav-Tickets-Escalationview > a:hover,
+#nav-Tickets-Newphoneticket > a:hover,
+#nav-Tickets-Newemailticket > a:hover,
+#nav-Tickets-Search > a:hover {
+  background-color: #eba0ac;
+  color: #fafafa !important;
+}
+
+/* TICKET PRIORITY */
+
+.Flag span.PriorityID-8 {
+  background-color: #89b4fa;
+}
+
+.Flag span.PriorityID-7 {
+  background-color: #f9e2af;
+}
+
+/* TICKET NOTE LIST */
+
+.UseArticleColors tr.VisibleForCustomer.Active > td,
+.UseArticleColors tr.NotVisibleForCustomer.Active > td,
+.UseArticleColors tr.system.Active > td {
+  background-color: #eba0ac !important;
+}
+
+.UseArticleColors tr.NotVisibleForCustomer > td {
+  background-color: #f9e2af !important;
+}
+
+.UseArticleColors tr.system > td {
+  background-color: #cba6f7 !important;
+}
+
+.UseArticleColors tr.customer > td {
+  background-color: #cdd6f4 !important;
+}
+
+.UseArticleColors tr.VisibleForCustomer.Active > td,
+.UseArticleColors tr.NotVisibleForCustomer > td,
+.Direction,
+.Sender,
+.Channel,
+.Subject,
+.Created,
+.UseArticleColors #ArticleTable a,
+#ArticleTable.DataTable tbody td {
+  color: #1e1e2e !important;
+}
+
+.UseArticleColors tr.system:hover > td,
+.UseArticleColors tr.VisibleForCustomer:hover > td,
+.UseArticleColors tr.NotVisibleForCustomer:hover > td {
+  background-color: #f2cdcd !important;
+}
+
+/* TICKET NOTE CONTENT */
+
+.UseArticleColors
+  #ArticleItems
+  .NotVisibleForCustomer
+  .ArticleMailContent
+  iframe,
+.UseArticleColors
+  #ArticleItems
+  .NotVisibleForCustomer
+  .ArticleMailContent
+  .ArticleBody,
+.UseArticleColors
+  #ArticleItems
+  .NotVisibleForCustomer
+  .ArticleMailContent
+  .ArticleHTML,
+.UseArticleColors
+  #ArticleItems
+  .NotVisibleForCustomer
+  .ArticleMailContent
+  .ArticleMeta,
+.UseArticleColors #ArticleItems .system .ArticleMailContent iframe,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleBody,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleHTML,
+.UseArticleColors #ArticleItems .system .ArticleMailContent .ArticleMeta {
+  border-color: #eba0ac;
+}
+
+.UseArticleColors
+  .Outgoing.NotVisibleForCustomer
+  .ArticleMailContentHTMLWrapper::after,
+.UseArticleColors .Outgoing.NotVisibleForCustomer .ArticleHTML::after,
+.UseArticleColors .Outgoing.NotVisibleForCustomer .ArticleBody::after,
+.UseArticleColors .Outgoing.system .ArticleMailContentHTMLWrapper::after,
+.UseArticleColors .Outgoing.system .ArticleHTML::after,
+.UseArticleColors .Outgoing.system .ArticleBody::after {
+  border-right-color: #eba0ac;
+}
+
+.ArticleAttachments li,
+.ArticleAttachments li div a {
+  border-left-color: #f38ba8;
+  background-color: #eba0ac;
+}
+
+.ArticleAttachments li h5,
+.ArticleAttachments li div a {
+  color: #1e1e2e;
+}
+
+span.UnreadArticles.Remarkable i,
+div.UnreadArticles.Remarkable i {
+  color: #f9e2af;
+}
+
+td.bodyContent h1 {
+  border-bottom: 10px solid #eba0ac !important;
+}
+
+/* SIDEBAR */
+
+.ItemRow i.OpenTicket {
+  color: #f38ba8;
+}
+
+.UserStatusIcon.Away i {
+  color: #f9e2af;
+}
