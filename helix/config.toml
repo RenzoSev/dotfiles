@@ -4,6 +4,7 @@ theme = "rose_pine"
 line-number = "relative"
 scroll-lines = 1
 auto-pairs = false
+true-color = true
 
 [editor.cursor-shape]
 insert = "underline"
